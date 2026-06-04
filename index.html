@@ -4,13 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Velvet Scents</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <div class="video-container">
-        <video 
+        <video autoplay muted loop id="bg-video">
+            <source src="images/7565970-hd_2048_1080_25fps.mp4">
+        </video>
+      
+        
+        <div class="video-overlay">
+
+        </div>
     </div>
+
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#" class="logo">Velvet<span>Scents</span></a>
+
+                <div class="nav-links" id="navLinks">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#shop">Shop</a>
+                    <a href="#collection">Collection</a>
+                    <a href="#bestsellers">Best Sellers</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="nav-icons">
+                    <a href="#" class="nav-icons"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#" class="nav-icon cart-icon">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="cart-count">0</span> 
+                    </a>
+                    <a href="#" class="nav-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                    <button class="kurvings" id="kurvings">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+
+
+
+            </div>
+        </nav>
+
+
+
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1 class="gradient-heading">Find the fragrance that <span>Define You</span></h1>
+                <p class="hero-subtitle">Where luxury meets exclusivity in every scent.</p>
+                <div class="hero-button">
+                    <a href="#shop" class="btn btn-primary">Shop</a>
+                    <a href="#collection" class="btn btn-primary">Explore Collection</a>
+                </div>
+            </div>
+            <div class="perfume-bottle">
+                <img src="images/perfume-removebg-preview.png" alt="perfume">
+            </div>
+        </section>
+
+
+        <section class="categories" id="categories">
+            <h2 class="section-title">Features<span>Categories</span></h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-person"></i>
+                    </div>
+                    <h3>For men</h3>
+                    <p>Sophistication with a bold edge</p>
+                    <a href="#" class="category-link">Explore<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-female"></i>
+
+                    </div>
+                    <h3>For Women</h3>
+                    <p>Elegance in every captivating scent</p>
+                    <a href="#" class="category-link">Explore<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-gem"></i>
+                    </div>
+                    <h3>Oud Collection</h3>
+                    <p>Unveil the mystery of exotic oud</p>
+                    <a href="#" class="category-link">Explore<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-gift"></i>
+
+                    </div>
+                    <h3>Gift</h3>
+                    <p>A perfect gift, elegantly packaged</p>
+                    <a href="#" class="category-link">Explore<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="products" id="bestseller">
+            <h2 class="section-title">Best <span>Seller</span></h2>
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="">
+                        <div class="product-overlay">
+                            <button class="add-to-cart" data-product="Midnight Noir">Add to Card</button>
+                        </div>
+
+                    </div>
+                    <div class="product-info">
+                        <h3>Midnight Noir</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+    </div>
+
+
+
+
+
 
 
 </body>
