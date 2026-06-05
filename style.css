@@ -522,8 +522,30 @@ a{
       padding:30px;
       background: rgba(255,255,255,0.05);
       backdrop-filter: 15px;
-      border: 1px solid rgba(255,255,)
+      border: 1px solid rgba(255,255, 255,0.1);
+      transition: transform 0.3s;
+      border-radius:10px;
+   }
+
+   .feature:hover{
+      transform:translateY(-10px);
+   }
+
+   .feature-icon {
+      font-size:40px;
+      color:#9d4edd;
+      margin-bottom:20px;
+   }
+   .feature h3{
+      font-size:22px;
+      margin-bottom: 15px;
 
    }
+   .feature p{
+      color:rgba(255,255,255,0.07);
+      line-height: 1.6;
+   }
+
+   
     
  
